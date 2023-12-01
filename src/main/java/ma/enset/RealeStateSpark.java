@@ -7,7 +7,7 @@ import org.apache.spark.sql.SparkSession;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class RealeStateSpark {
     public static void main(String[] args) {
         SparkSession ss = SparkSession.builder().appName("test mysql").master("local[*]").getOrCreate();
         Map<String , String > options = new HashMap< >( ) ;
